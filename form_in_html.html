@@ -1,0 +1,14 @@
+
+<!--Note: a bit of bootstrap css was used here-->
+<div class="row login">
+	<div class="col-12" style="margin-bottom:10%; width:300px; box-shadow:2p 4px #bbb">
+		<center>
+		<h3 class="h3">Please Login to continue:</h3>
+		<form class="form">
+		{{login_form.username(class="form-control mb-3 mt-5",placeholder="Username",style="width:250px")}}
+		{{login_form.password(class="form-control mb-3",placeholder="Password", style="width:250px")}}
+		 {{login_form.remember_me(class="form-control")}}<p >Remember me</p>
+		<button type="submit" class="btn btn-primary">Login</button>
+		</form>
+		</center>
+	</div>
